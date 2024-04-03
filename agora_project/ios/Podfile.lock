@@ -3,6 +3,11 @@ PODS:
     - AgoraIrisRTC_iOS (= 4.3.0-build.2)
     - AgoraRtcEngine_iOS (= 4.3.0)
     - Flutter
+  - agora_rtm (1.5.9):
+    - AgoraRtm_iOS (= 1.5.1)
+    - Flutter
+  - agora_uikit (0.0.1):
+    - Flutter
   - AgoraIrisRTC_iOS (4.3.0-build.2)
   - AgoraRtcEngine_iOS (4.3.0):
     - AgoraRtcEngine_iOS/AIAEC (= 4.3.0)
@@ -35,6 +40,7 @@ PODS:
   - AgoraRtcEngine_iOS/VideoCodecEnc (4.3.0)
   - AgoraRtcEngine_iOS/VirtualBackground (4.3.0)
   - AgoraRtcEngine_iOS/VQA (4.3.0)
+  - AgoraRtm_iOS (1.5.1)
   - Flutter (1.0.0)
   - iris_method_channel (0.0.1):
     - Flutter
@@ -46,6 +52,8 @@ PODS:
 
 DEPENDENCIES:
   - agora_rtc_engine (from `.symlinks/plugins/agora_rtc_engine/ios`)
+  - agora_rtm (from `.symlinks/plugins/agora_rtm/ios`)
+  - agora_uikit (from `.symlinks/plugins/agora_uikit/ios`)
   - Flutter (from `Flutter`)
   - iris_method_channel (from `.symlinks/plugins/iris_method_channel/ios`)
   - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
@@ -55,10 +63,15 @@ SPEC REPOS:
   trunk:
     - AgoraIrisRTC_iOS
     - AgoraRtcEngine_iOS
+    - AgoraRtm_iOS
 
 EXTERNAL SOURCES:
   agora_rtc_engine:
     :path: ".symlinks/plugins/agora_rtc_engine/ios"
+  agora_rtm:
+    :path: ".symlinks/plugins/agora_rtm/ios"
+  agora_uikit:
+    :path: ".symlinks/plugins/agora_uikit/ios"
   Flutter:
     :path: Flutter
   iris_method_channel:
@@ -70,8 +83,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   agora_rtc_engine: f737aeb9ac7fdfcfda875d0d0125eedaa09602f9
+  agora_rtm: 51b5cef21d9d664563b9a420f2c59531b1ad3e4c
+  agora_uikit: ca47b21e2af19474ddd8ec153670c2dc8cf3a9e8
   AgoraIrisRTC_iOS: 2caf892fa827777fe43b6ac7d12e9b42579eb865
   AgoraRtcEngine_iOS: 267c0980c1fb97e056d05b850f8629b05b6e467a
+  AgoraRtm_iOS: 595a9fa33a409831e6183396ea8f8bc563918403
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   iris_method_channel: 0617c689164d8154c020c50f63ca79f92b8a7b9d
   path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
